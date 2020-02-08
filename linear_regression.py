@@ -33,7 +33,6 @@ B1 = 1     #slope
 B0 = 1     #interscept
 alpha = 0.005
 iter_num = 1000   # number of iterations
-print(cost_fun_rmse(X,y,B1,B0))
 x_vals = np.arange(ax.get_xlim()[0],ax.get_xlim()[1],0.01)
 ax.scatter(X,y,s=2)
 ax.set_title('Linear Regression with Gradient Descent', fontsize = 14)
